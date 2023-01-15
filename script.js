@@ -1,4 +1,4 @@
- const daysEl = document.getElementById('days');
+ const daysEl = document.getElementById("days");
  const hoursEl = document.getElementById('hours');
  const minsEl = document.getElementById('mins');
  const secondsEl = document.getElementById('seconds');
@@ -15,6 +15,10 @@ function countdown(){
   const hours = Math.floor(totalSeconds / 3600) % 24;
   const mins = Math.floor(totalSeconds / 60 ) % 60; // %60 (So the minutes should show in the range of 60)
   const seconds = Math.floor(totalSeconds) % 60;
+
+  
+  console.log(daysEl, hoursEl, minsEl, secondsEl);
+
 
   daysEl.innerHTML = days;
   hoursEl.innerHTML = hours;
