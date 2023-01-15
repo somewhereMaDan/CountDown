@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  display: flex;
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -30rem;
+}
+
+.countdown-container{
+  display: flex;
+}
+
+.big-text{
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-e1{
+  text-align: center;
+}
+
+.countdown-e1 span{
+  font-size: 1.5rem;
+}
